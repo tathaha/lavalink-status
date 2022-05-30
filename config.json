@@ -1,50 +1,40 @@
 {
 
   "token": "",
-	"channel": "921087727204724806",
+  "channel": "",
   "nodes": [
   {
-      "host": "disbotlistlavalink.ml",
-      "password": "LAVA",
+      "host": "lava.chirailava.tk",
+      "password": "chiraiisagirl",
       "port": 443,
       "retryDelay": 3000,
-      "identifier": "lavalink 1",
+      "identifier": "lavalink-sr1",
       "secure": true
     },
     {
-      "host": "giveawaybot.cf",
-      "password": "Blacky#6618",
+      "host": "lava2.chirailava.tk",
+      "password": "chiraiisagirl",
       "port": 443,
       "retryDelay": 3000,
-      "identifier": "lavalink 2",
+      "identifier": "lavalink-sr2",
       "secure": true
     },
     {
-      "host": "lavalink.gangasagarcom.repl.co",
-      "password": "LAVA",
+      "host": "lava3.chirailava.tk",
+      "password": "chiraiisagirl",
       "port": 443,
       "retryDelay": 3000,
-      "identifier": "lavalink 3",
+      "identifier": "lavalink-sr3",
       "secure": true
-
     },
     {
-      "host": "lavalink-2.gangasagarcom.repl.co",
-      "password": "LAVA",
+      "host": "lava4.chirailava.tk",
+      "password": "chiraiisagirl",
       "port": 443,
       "retryDelay": 3000,
-      "identifier": "lavalink 4",
+      "identifier": "lavalink-sr4",
       "secure": true
 
-     },
-    {
-      "host": "lavalink.brblacky1.repl.co",
-      "password": "LAVA",
-      "port": 443,
-      "retryDelay": 3000,
-      "identifier": "lavalink 5",
-      "secure": true
-    }
-
+     }
   ]
 }
