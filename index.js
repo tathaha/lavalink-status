@@ -1,5 +1,5 @@
 const { Client, Collection, Intents, MessageEmbed } = require("discord.js");
-
+const keepAlive = require('./server');
 const { readdirSync } = require("fs");
 const { Manager } = require("erela.js");
 const { token, nodes } = require('./config.json')
@@ -24,6 +24,6 @@ readdirSync("./Events/").forEach(file => {
     client.on(eventName, event.bind(null, client));
 });
 
-  
+  keepAlive();
 
   client.login(token);
