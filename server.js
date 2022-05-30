@@ -13,6 +13,6 @@ app.all('/lavalinks', (req, res)=>{
 })
 
 function keepAlive(){
-    server.listen(3000 || process.env.PORT, ()=>{console.log("Server is Ready!")});
+    server.listen(process.env.PORT, ()=>{console.log("Server is Ready!")});
 }
 module.exports = keepAlive;
